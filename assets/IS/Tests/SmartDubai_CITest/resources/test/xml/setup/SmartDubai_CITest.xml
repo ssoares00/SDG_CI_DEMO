@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<webMethodsTestSuite description="" name="wmTestSuite.xml">
+<webMethodsTestSuite description="" name="SmartDubai_CITest">
     <webMethodsTestCase name="Case1">
         <mock enabled="false" folder="pub.math" name="addInts">
             <pipeline filename="resources/test/xml/data/mockup"/>

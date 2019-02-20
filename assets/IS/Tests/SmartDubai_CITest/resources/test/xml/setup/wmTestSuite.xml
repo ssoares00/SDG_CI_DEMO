@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<webMethodsTestSuite description="" name="wmTestSuite.xml"/>
+<webMethodsTestSuite description="" name="wmTestSuite.xml">
+    <webMethodsTestCase name="Case1">
+        <service folder="SmartDubai_CI.services" name="sum">
+            <input>
+                <file filename="resources/test/xml/data/in.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/xml/data/out.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>

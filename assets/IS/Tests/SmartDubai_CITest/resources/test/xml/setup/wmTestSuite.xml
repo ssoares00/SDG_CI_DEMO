@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <webMethodsTestSuite description="" name="wmTestSuite.xml">
     <webMethodsTestCase name="Case1">
+        <mock enabled="false" folder="pub.math" name="addInts">
+            <pipeline filename="resources/test/xml/data/mockup"/>
+        </mock>
         <service folder="SmartDubai_CI.services" name="sum">
             <input>
                 <file filename="resources/test/xml/data/in.xml"/>

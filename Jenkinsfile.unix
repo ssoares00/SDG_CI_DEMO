@@ -35,7 +35,7 @@ pipeline {
 	
 	 stage('Activate') {
             steps {
-		sh /home/webmethods/CI_script/activatePackage.sh activate
+		sh /home/webmethods/CI_script/activatePackage.sh "activate"
             }
         }
 	stage('Test') {

@@ -35,7 +35,7 @@ pipeline {
 	
 	 stage('Activate') {
             steps {
-		sh "/home/webmethods/CI_script/test.sh activate"
+		sh "/opt/softwareag3/common/lib/ant/bin/activatePackage.sh activate"
             }
         }
 	stage('Test') {
